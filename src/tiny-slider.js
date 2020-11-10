@@ -550,7 +550,7 @@ export var tns = function(options) {
     } else if (el.parentNode.parentNode !== null) {
         getClientWidth(el.parentNode);
     } else {
-        return;
+        return 0;
     }
   }
 
