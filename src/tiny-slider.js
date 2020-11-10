@@ -548,7 +548,7 @@ export var tns = function(options) {
     if (width) {
         return width;
     } else if (el.parentNode !== null) {
-        getClientWidth(el.parentNode);
+        return getClientWidth(el.parentNode);
     } else {
         return 0;
     }
